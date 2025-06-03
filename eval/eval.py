@@ -342,7 +342,7 @@ def calculate_metrics(entity_type, boundaries):
 #     }
 # ]
 
-eval_data = r"/Users/yunyunzhao/Desktop/01/Agri_NER/gliner_train/gliner_ft_output.json"
+eval_data = r"../gliner_train/gliner_ft_output.json"
 #eval        
 hard_boundaries,soft_boundaries = report_metric(eval_data, e_types_list)
 ##严格匹配不考虑大小写差异、空格或其他字符变化
