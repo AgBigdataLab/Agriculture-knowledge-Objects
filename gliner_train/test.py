@@ -1,7 +1,7 @@
 from gliner import GLiNER
 
 # Initialize GLiNER with the base model
-model = GLiNER.from_pretrained("/home/zhaochenyun/zcy/AgriNER/2_baseline/gliner/models/checkpoint-4802", load_tokenizer=True)  
+model = GLiNER.from_pretrained("/gliner/models/checkpoint-4802", load_tokenizer=True)  
 
 
 # Sample text for entity prediction
