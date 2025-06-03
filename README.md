@@ -1,6 +1,6 @@
 # Agriculture-knowledge-Objects
 本项目旨在面向农业领域科技文献，实现细粒度专业领域**知识对象的识别与抽取**，并使用streamlit构建原型进行**结果的可视化呈现**。
-## 农业知识对象识别数据集（Agricultural Scientific Literature Knowledge Object Recognition Dataset，Agri-KORD）
+## 农业知识对象识别数据集<br>（Agricultural Scientific Literature Knowledge Object Recognition Dataset，Agri-KORD）
 `Agri-KORD` 是一个面向农业领域知识对象识别任务的数据集，旨在支持基于大语言模型（LLMs）对农业知识对象的理解、抽取与分析。<br>
 本数据集共包含 **25 种农业知识对象类型**，涵盖作物、病虫害、防控方法等多个方面，具体类型如下：
 ```python
