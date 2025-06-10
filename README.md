@@ -20,7 +20,7 @@
 | 文件/目录 | 描述 |
 |-----------|------|
 | `gliner_dataprocess.py` | GLiNER 模型训练用数据预处理脚本 |
-| `finetune.py`           | GLiNER 模型微调主程序 |
+| `finetune.py`           | GLiNER 模型微调 |
 | `gliner_output.json`    | 使用原始 `gliner_large-v2.5` 模型进行零样本实体识别的输出结果 |
 | `gliner_ft_output.json` | 使用微调后的 `gliner_large-v2.5` 模型生成的输出结果 |
 | `gliner_train.json`     | 用于微调的训练数据 |
