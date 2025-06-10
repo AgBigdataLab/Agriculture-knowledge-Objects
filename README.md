@@ -8,6 +8,10 @@
   "Pests and diseases", "Grain and oil crops", "Medicinal plants", "Livestock and poultry diseases","Livestock and poultry", "Fruits and vegetables", "Agricultural production and operation entities", "Infected crop parts", "Soil type", "Agronomic techniques", "Fertilizer", "Physical control", "Feed additives","Flowers", "Phenological period", "Gas", "Chemical control", "Pesticide", "Tea","Agricultural control", "Veterinary drug", "Edible fungi", "Biological control", "Forage", "Aquatic animals"
 ]
 ```
+## gliner_train
+用于训练 GLiNER 模型的代码。
+- gliner_dataprocess: gliner模型训练数据处理
+- finetune.py： gliner模型微调代码
 ## eval
 模型评估代码：指标P、R、F1
 评估方式包含精确匹配和模糊匹配两种设置，其中：
